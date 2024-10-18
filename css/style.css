@@ -1,0 +1,72 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.pagePrincipale{
+    background: #000;
+    height: 100vh;
+}
+.menu{
+    height: 10vh;
+}
+.logoSpotify{
+}
+.boutonLogin{
+    background: white;
+    border: none;
+    padding-bottom: 1.5vh;
+    padding-top: 1.5vh;
+    padding-right: 4vh;
+    padding-left: 4vh;
+    font-size: 1.1em;
+}
+.boutonSignup{
+    color: #8c8c8c;
+    border: none;
+    background-color: black;
+    margin-right: 2vw;
+    font-size: 1.1em;
+}
+.imageSearch{
+    color: black;
+}
+.corpsdelaPage{
+    height: 90vh;
+}
+.boiteGauche{
+    height: 80vh;
+    background: #121212;
+    width: 30%;
+}
+.buttonLibrary{
+    border: none;
+    background-color:#121212 ;
+    color: #b4b4b4;
+}
+.imageLibrary{
+    height: 2.5vh;
+    width: 2.5vh;
+}
+.library{
+    height: 10vh;
+}
+.symboleplus{
+    color: #b4b4b4;
+    font-size: 2.5em;
+    border: none;
+    background-color: #121212;
+}
+.petiteBoite{
+    background-color: #1f1f1f;
+    height: auto;
+}
+.titrePetiteBoite{
+    font-size: 1em;
+}
+.textpetiteBoite{
+    font-size: 0.75em;
+}
+.buttonPetiteBoite{
+    border: none;
+
+}
