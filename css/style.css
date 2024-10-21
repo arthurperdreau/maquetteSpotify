@@ -64,9 +64,29 @@ body,html{
     font-size: 1em;
 }
 .textpetiteBoite{
-    font-size: 0.75em;
+    font-size: 0.85em;
 }
 .buttonPetiteBoite{
     border: none;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.textGrisé{
+    color: #b4b4b4;
+    font-size: 0.7em;
 
+}
+.cookie{
+    color: white;
+    font-size: 0.80em;
+}
+.buttonEnglish{
+    background-color: #121212;
+    border-color: #b4b4b4;
+}
+.imageSphere{
+    height: 3vh;
+    width: 3.5vh;
 }
