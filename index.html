@@ -10,21 +10,23 @@
 <body>
 <div class="pagePrincipale">
     <nav class="navbar menu">
-        <div class="logoSpotify">
-            <img src="">
+        <div >
+            <img src="images/logoSpotify.png" class="logoSpotify">
         </div>
-        <div class="barreDeRecherche">
-            <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1"><img src="" class="imageSearch"></span>
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        <div class=" d-flex align-items-center deplacement">
+            <img src="images/maison.png" class="tailleMaison">
+            <div class="bar-recherche rounded-pill d-flex align-items-center ms-3">
+                <img src="images/Loupe.png" class="tailleLoupe">
+                <input type="text" class="inputRecherche" placeholder="What do you want to play?">
+                <div class="borderBrowser"><img src="images/Browser.png" class="tailleBrowser"></div>
             </div>
         </div>
         <div class="buttonBox">
             <button class=" boutonSignup fw-bolder " type="submit">Sign up</button>
-            <button class="boutonLogin rounded-pill fw-bolder " type="submit">Log in</button>
+            <button class="boutonLogin rounded-pill fw-bolder me-3" type="submit">Log in</button>
         </div>
     </nav>
-    <div class="corpsdelaPage">
+    <div class="corpsdelaPage d-flex">
         <div class="boiteGauche  rounded ms-3">
             <div class="library ps-4 d-flex align-items-center justify-content-between">
                 <button class="buttonLibrary  fw-bold"><img src="images/library.png" class="imageLibrary me-2">Your library</button>
@@ -58,7 +60,196 @@
             </div>
 
         </div>
+        <div class="boiteDroite rounded ms-3 me-3">
+            <div class="ligne1 ms-3 me-3">
+                <div class="popularArtists d-flex justify-content-between pt-3">
+                    <p class="text-white fw-bolder fs-3">Popular artists</p>
+                    <p class="text-white pt-3 textShowall fw-bold">Show all</p>
+                </div>
+                <div class=" d-flex ">
+                    <div class="cardRounded me-3">
+                        <img src="images/ImagesArtistsRonds/GIMS.png" class="photoRonde ">
+                        <p class="text-white pt-3">GIMS</p>
+                        <p class="couleurTextGris">Artist</p>
+                    </div>
+                    <div class="cardRounded me-3">
+                        <img src="images/ImagesArtistsRonds/Ninho.png" class="photoRonde ">
+                        <p class="text-white pt-3">Ninho</p>
+                        <p class="couleurTextGris">Artist</p>
+                    </div>
+                    <div class="cardRounded me-3">
+                        <img src="images/ImagesArtistsRonds/SDM.png" class="photoRonde ">
+                        <p class="text-white pt-3">SDM</p>
+                        <p class="couleurTextGris">Artist</p>
+                    </div>
+                    <div class="cardRounded me-3">
+                        <img src="images/ImagesArtistsRonds/JUL.png" class="photoRonde ">
+                        <p class="text-white pt-3">Jul</p>
+                        <p class="couleurTextGris">Artist</p>
+                    </div>
+                    <div class="cardRounded ">
+                        <img src="images/ImagesArtistsRonds/TheWeeknd.png" class="photoRonde ">
+                        <p class="text-white pt-3">The Weeknd</p>
+                        <p class="couleurTextGris">Artist</p>
+                    </div>
 
+                </div>
+            </div>
+            <div class="ligne1 ms-3 me-3 mt-3">
+                <div class="popularArtists d-flex justify-content-between pt-3">
+                    <p class="text-white fw-bolder fs-3">Popular albums</p>
+                    <p class="text-white pt-3 textShowall fw-bold">Show all</p>
+                </div>
+                <div class=" d-flex ">
+                    <div class="cardRounded me-3">
+                        <img src="images/ligne2/SDM2.png" class="photoRonde ">
+                        <p class="text-white pt-3">A LA VIE A LA MORT</p>
+                        <p class="couleurTextGris">SDM</p>
+                    </div>
+                    <div class="cardRounded me-3">
+                        <img src="images/ligne2/Tiakola.png" class="photoRonde ">
+                        <p class="text-white pt-3">BDLM VOL.1</p>
+                        <p class="couleurTextGris">Tiakola</p>
+                    </div>
+                    <div class="cardRounded me-3">
+                        <img src="images/ligne2/Billie.png" class="photoRonde ">
+                        <p class="text-white pt-3">HIT ME HARD AND <br></br>SOFT</p>
+                        <p class="couleurTextGris">Billie Eilish</p>
+                    </div>
+                    <div class="cardRounded me-3">
+                        <img src="images/ligne2/Werenoi.png" class="photoRonde ">
+                        <p class="text-white pt-3">Carré</p>
+                        <p class="couleurTextGris">Werenoi</p>
+                    </div>
+                    <div class="cardRounded ">
+                        <img src="images/ligne2/ninho.png" class="photoRonde ">
+                        <p class="text-white pt-3">Destin</p>
+                        <p class="couleurTextGris">Ninho</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ligne1 ms-3 me-3 mt-3">
+                <div class="popularArtists d-flex justify-content-between pt-3">
+                    <p class="text-white fw-bolder fs-3">Popular radio</p>
+                    <p class="text-white pt-3 textShowall fw-bold">Show all</p>
+                </div>
+                <div class=" d-flex ">
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne3/amy.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">With Duffy, Lily Allen, Marvin Gaye and more</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne3/theWeekndLigne3.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">With Chase Atlantic, SZA, Drake and more</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne3/SDMligne3.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">With Tiakola, Werenoi, Green Montana and more</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne3/imagine.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">With Twenty One Pilots, Coldplay, Maroon 5 and more</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne3/DaftPunk.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">With Harry Styles, Maroon 5, Bruno Mars...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ligne1 ms-3 me-3 mt-3">
+                <div class="popularArtists d-flex justify-content-between pt-3">
+                    <p class="text-white fw-bolder fs-3">Featured Charts</p>
+                    <p class="text-white pt-3 textShowall fw-bold">Show all</p>
+                </div>
+                <div class=" d-flex ">
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne4/TopGlobal.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">Your weekly update of the most played track...</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne4/TopUSA.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">Your weekly update of the most played track...</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne4/Top50.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">Your daily update of the most played track...</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne4/Top50USA.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">Your daily update of the most played track...</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne4/TopGlobal.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">Your daily update of the most viral track right...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ligne1 ms-3 me-3 mt-3">
+                <div class="popularArtists d-flex justify-content-between pt-3">
+                    <p class="text-white fw-bolder fs-3">Featured Charts</p>
+                    <p class="text-white pt-3 textShowall fw-bold">Show all</p>
+                </div>
+                <div class=" d-flex ">
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne5/image1.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">Work and study to the sound of soft electronic</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne5/image2.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">The hottest 50.Cover: Charli xcx & Ariana...</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne5/image3.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">chill beats, lofi vibes, new tracks every...</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne5/image4.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">Where R&B lives. Cover: Wozkid & Brent Faiyaz</p>
+                    </div>
+                    <div class="cardRounded2 me-3">
+                        <img src="images/ligne5/image5.png" class="photoRonde ">
+                        <p class="couleurTextGris pt-2">Just lean back and enjoy relaxed beats</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer d-flex mt-5 pt-3">
+                <div class="ms-4 Footerbox">
+                    <p class="text-white fw-bold">Company</p>
+                    <p class="footerText">About</p>
+                    <p class="footerText">Jobs</p>
+                    <p class="footerText">For the Record</p>
+                </div>
+                <div class=" Footerbox">
+                    <p class="text-white fw-bold ">Communities</p>
+                    <p class="footerText">For Artists</p>
+                    <p class="footerText">Developers</p>
+                    <p class="footerText">Advertising</p>
+                    <p class="footerText">Investors</p>
+                    <p class="footerText">Vendors</p>
+                </div>
+                <div class="  Footerbox">
+                    <p class="text-white fw-bold">Useful links</p>
+                    <p class="footerText">Support</p>
+                    <p class="footerText">Free Mobile App</p>
+                </div>
+                <div class="  Footerbox pe-3">
+                    <p class="text-white fw-bold">Spotify Plans</p>
+                    <p class="footerText">Premium Individual</p>
+                    <p class="footerText">Premium Duo</p>
+                    <p class="footerText">Premium Family</p>
+                    <p class="footerText">Premium Student</p>
+                    <p class="footerText">Spotify Free</p>
+                </div>
+                <div class="d-flex  justify-content-end tailleBoiteIconeFooter ">
+                    <img src="images/Icone/insta.png" class="tailleIconeFooter">
+                    <img src="images/Icone/twitter.png" class="tailleIconeFooter">
+                    <img src="images/Icone/facebook.png" class="tailleIconeFooter me-4">
+                </div>
+            </div>
+            <div class="CopyRight">
+                <p>© 2024 Spotify AB</p>
+            </div>
+        </div>
     </div>
 </div>
 

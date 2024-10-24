@@ -4,12 +4,53 @@ body,html{
 }
 .pagePrincipale{
     background: #000;
-    height: 100vh;
+    height: 270vh;
 }
 .menu{
     height: 10vh;
 }
 .logoSpotify{
+    height:4vh;
+    width: 4vh;
+    margin-left: 5vh;
+}
+.bar-recherche{
+    background-color: #1f1f1f;
+    height: 6vh;
+    width: 55vh;
+}
+
+.tailleLoupe{
+    height:6vh;
+    width: 6vh;
+}
+.tailleBrowser{
+    height:3vh;
+    width: 3vh;
+    margin-left: 2vh;
+
+}
+.deplacement{
+    margin-left:13vh;
+}
+.borderBrowser{
+    border-left:1px solid #b4b4b4;
+    margin-left: 15vh;
+}
+.inputRecherche{
+    background-color:#1f1f1f;
+    border: none;
+}
+::placeholder{
+    color: #b4b4b4;
+}
+.tailleMaison{
+    height: 7vh;
+    width: 7vh;
+}
+.tailleBarre{
+    height: 7vh;
+    width: 45vh;
 }
 .boutonLogin{
     background: white;
@@ -70,8 +111,8 @@ body,html{
     border: none;
     padding-right: 1vw;
     padding-left: 1vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 0.75vh;
+    padding-bottom: 0.75vh;
 }
 .textGrisé{
     color: #b4b4b4;
@@ -89,4 +130,61 @@ body,html{
 .imageSphere{
     height: 3vh;
     width: 3.5vh;
+}
+.boiteDroite {
+    height: 255vh;
+    background: #121212;
+    width: 70%;
+}
+.popularArtists{
+    height: 10vh;
+}
+.textShowall{
+    font-size: 0.9em;
+}
+.cardRounded{
+    width: 20%;
+    height: 30vh;
+    line-height: 0.6;
+}
+.photoRonde{
+    height: 22vh;
+    width: 22vh;
+
+}
+.couleurTextGris{
+    color: #b4b4b4;
+    font-size: 0.90em;
+}
+.cardRounded2{
+    width: 20%;
+    height: 30vh;
+}
+.footerText{
+    color: #b4b4b4;
+}
+.footer{
+}
+.Footerbox{
+    width: 20%;
+    line-height: 0.9;
+
+}
+.tailleIconeFooter{
+    height: 6vh;
+    width: 6vh;
+    margin-right: 1vh;
+}
+.tailleBoiteIconeFooter{
+    width: 30%;
+}
+.CopyRight{
+    color: #b4b4b4;
+    width: 115vh;
+    height:6vh;
+    border-top:  solid 1px #1f1f1f;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: 5vh;
+    padding-top: 5vh;
 }
